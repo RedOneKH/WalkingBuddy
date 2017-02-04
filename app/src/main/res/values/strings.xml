@@ -11,4 +11,6 @@
 
     <!-- Google Map app key -->
     <string name="dan_googleMap_key">AIzaSyC_26XY1wA3ccpdCKmzY23bbikwMW2SjgA</string>
+    <string name="confirm_destination">Confirm</string>
+
 </resources>

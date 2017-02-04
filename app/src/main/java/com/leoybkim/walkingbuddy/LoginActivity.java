@@ -17,6 +17,9 @@ import com.facebook.GraphResponse;
 import com.facebook.HttpMethod;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
+import com.google.android.gms.location.places.ui.PlacePicker;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
     private CallbackManager mCallbackManager;
     private AccessToken mAccessToken;
     private String mFacebookID;
-
+    private static final int PLACE_PICKER_REQUEST = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +58,17 @@ public class LoginActivity extends AppCompatActivity {
                 getFriendList();
 
                 // Open main activity
-                Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(mainIntent);
+                //Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
+                //startActivity(mainIntent);
+                PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
+                try {
+                    startActivityForResult(builder.build(LoginActivity.this), PLACE_PICKER_REQUEST);
+                } catch (GooglePlayServicesNotAvailableException e) {
+                    e.printStackTrace();
+                } catch (GooglePlayServicesRepairableException e) {
+                    e.printStackTrace();
+                }
+
             }
 
             @Override
