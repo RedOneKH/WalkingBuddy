@@ -6,6 +6,10 @@
 
     <string name="action_settings">Settings</string>
 
+<<<<<<< Updated upstream
     <!-- Facebook app id -->
     <string name="app_id">1831605957057526</string>
+=======
+    <string name="dan_googleMap_key">AIzaSyC_26XY1wA3ccpdCKmzY23bbikwMW2SjgA</string>
+>>>>>>> Stashed changes
 </resources>
