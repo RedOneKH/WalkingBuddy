@@ -6,7 +6,11 @@
 
     <string name="action_settings">Settings</string>
 
-    <!-- BuddyFoundActivity values-->
+    <!-- Buddy card values-->
     <string name="buddy_found">Buddy Found!</string>
+    <string name="name_place_holder">Name Surname</string>
+    <string name="button_place_holder">Should be a fb mes button</string>
+
+
 
 </resources>
