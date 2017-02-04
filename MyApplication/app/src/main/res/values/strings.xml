@@ -5,4 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- Facebook app id -->
+    <string name="app_id">1831605957057526</string>
 </resources>
