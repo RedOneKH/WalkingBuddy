@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.leoybkim.walkingbuddy.Buddy;
+import com.leoybkim.walkingbuddy.User;
 import com.leoybkim.walkingbuddy.R;
 
 
@@ -16,7 +16,7 @@ import com.leoybkim.walkingbuddy.R;
  */
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
-    private Buddy[] mDataset;
+    private User[] mDataset;
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -34,7 +34,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public CardAdapter(Buddy[] dataset) {
+    public CardAdapter(User[] dataset) {
         mDataset = dataset;
     }
 

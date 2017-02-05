@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 Log.d(TAG, "Login Success!");
 
                 getMyFacebookDetails(loginResult);
-                getFriendList();
+//                getFriendList();
                 updateLocation();
                 PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
                 try {
@@ -112,7 +112,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
             @Override
             public void onError(FacebookException error) {
-                Log.d(TAG, "Login Failed!");
+                Log.d(TAG, "Login Failed! " + error.toString());
             }
         });
 
@@ -230,7 +230,6 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
                 new GraphRequest(
                         AccessToken.getCurrentAccessToken(),
-                        //"/me/friends",
                         "me/taggable_friends?limit=5000&height=300&type=\"large\"",
                         null,
                         HttpMethod.GET,
@@ -261,7 +260,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                                         Log.e(TAG,"@@@@"+jsonObject.getString("url").toString());
                                     }
 
-                                } catch (JSONException e) {
+                                } catch (Exception e) {
+                                    Log.e(TAG, "I am awful and have no friends");
                                     e.printStackTrace();
                                 }
                             }
