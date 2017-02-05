@@ -51,9 +51,15 @@ public class MatchFinderService extends IntentService {
 
         ArrayList<User> matches = new ArrayList<>();
         L1: for( User other : users ) {
-            if( other.getMatching()[0] || other.getUserFbID() == mUser.getUserFbID() ) continue;
-//            if( ! isClose( mUser.getSrc(), other.getSrc() ) ) continue;
-//            if( ! isClose( mUser.getDest(), other.getDest() ) ) continue;
+            Log.d(TAG, "For this guy: " + other.getFbName());
+            if( other.getMatching()[0] ) continue;
+            Log.d(TAG, "No matching");
+            if( other.getUserFbID().equals(mUser.getUserFbID()) ) continue L1;
+            Log.d(TAG, "Not myself, i.e. " + mUser.getUserFbID() + " is not " + other.getUserFbID() );
+            if( ! isClose( mUser.getSrc(), other.getSrc() ) ) continue;
+            Log.d(TAG, "Sources close");
+            if( ! isClose( mUser.getDest(), other.getDest() ) ) continue;
+            Log.d(TAG, "Destination close");
             // We found a match!
             matches.add(other);
             // If this is the last user creating the FoundBuddy, mark the everyone as done
@@ -114,6 +120,8 @@ public class MatchFinderService extends IntentService {
                     // launch a FoundBuddyActivity when there are some matches
                 if( ! matches.isEmpty() ) {
                     // Launch the activity !
+
+                    Log.d(TAG, "Contents of the matches: " + matches.get(0) );
                     Intent intent = new Intent(MatchFinderService.this, BuddyFoundActivity.class);
                     intent.putExtra("users", matches);
                     startActivity(intent);
