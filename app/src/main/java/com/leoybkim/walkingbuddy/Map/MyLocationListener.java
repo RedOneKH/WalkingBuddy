@@ -1,4 +1,4 @@
-package com.leoybkim.walkingbuddy.Util;
+package com.leoybkim.walkingbuddy.Map;
 
 import android.location.Location;
 import android.util.Log;

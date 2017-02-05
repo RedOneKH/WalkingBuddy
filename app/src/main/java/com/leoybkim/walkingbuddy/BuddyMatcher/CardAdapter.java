@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.leoybkim.walkingbuddy.User;
 import com.leoybkim.walkingbuddy.R;
+import com.leoybkim.walkingbuddy.User;
 
 
 /**

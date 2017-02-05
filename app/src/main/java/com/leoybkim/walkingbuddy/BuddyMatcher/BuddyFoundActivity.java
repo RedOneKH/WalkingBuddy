@@ -1,12 +1,12 @@
 package com.leoybkim.walkingbuddy.BuddyMatcher;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.leoybkim.walkingbuddy.User;
 import com.leoybkim.walkingbuddy.R;
+import com.leoybkim.walkingbuddy.User;
 
 import java.util.ArrayList;
 
