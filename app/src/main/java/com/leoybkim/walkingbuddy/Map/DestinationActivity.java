@@ -14,14 +14,11 @@ import android.widget.ImageView;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.leoybkim.walkingbuddy.BuddyMatcher.LookingForBuddyActivity;
 import com.leoybkim.walkingbuddy.LoginActivity;
+import com.leoybkim.walkingbuddy.LookingForBuddyActivity;
 import com.leoybkim.walkingbuddy.R;
 import com.leoybkim.walkingbuddy.User;
 import com.squareup.picasso.Picasso;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  * Created by Dan on 04/02/2017.
