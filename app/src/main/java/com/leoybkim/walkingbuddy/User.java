@@ -26,13 +26,14 @@ public class User implements Parcelable {
     private boolean [] matching = new boolean[]{false, false};
 
     public User(String fbName, @Nullable Drawable userPic, String userFbID, LatLng src,
-                LatLng dest, @Nullable User buddy) {
+                LatLng dest, @Nullable User buddy, @Nullable boolean [] matching) {
         this.fbName = fbName;
         this.userPic = userPic;
         this.userFbID = userFbID;
         this.src = src;
         this.dest = dest;
         this.buddy = buddy;
+        if(matching != null) this.matching = matching;
     }
 
     // Functions

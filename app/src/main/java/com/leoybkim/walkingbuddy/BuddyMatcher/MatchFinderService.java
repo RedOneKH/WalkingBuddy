@@ -80,7 +80,8 @@ public class MatchFinderService extends IntentService {
     protected void onHandleIntent(Intent workIntent) {
         // Gets data from the incoming Intent
         User incUser = workIntent.getParcelableExtra("user");
-        mUser = new User(incUser.getFbName(), null, incUser.getUserFbID(), incUser.getSrc(), incUser.getDest(), null);
+        mUser = new User(incUser.getFbName(), null, incUser.getUserFbID(), incUser.getSrc(),
+                incUser.getDest(), null, incUser.getMatching());
 
         // Access the database
         final DatabaseReference database = FirebaseDatabase.getInstance().getReference();
@@ -99,8 +100,14 @@ public class MatchFinderService extends IntentService {
                     Log.d(TAG, map.toString());
                     Set<String> keys = map.keySet();
                     for( String key : keys) {
-
-                        Log.d(TAG, String.valueOf(map.get(key).getClass()));
+                        ArrayList<Object> userList = (ArrayList<Object>) map.get(key);
+                        Map<String, Object> smap = (Map<String, Object>) userList.get(3);
+                        Map<String, Object> dmap = (Map<String, Object>) userList.get(4);
+                        double [] src = new double[]{(double) smap.get("latitude"), (double) smap.get("longitude")};
+                        double [] dest = new double[]{(double) dmap.get("latitude"), (double) dmap.get("longitude")};
+                        elems.add( new User( (String) userList.get(0), null, (String) userList.get(2),
+                                new LatLng(src[0], src[1]), new LatLng(dest[0], dest[1]), null,
+                                new boolean[]{(boolean) userList.get(6), (boolean) userList.get(7)} ));
                     }
 
                 }

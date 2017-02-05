@@ -92,6 +92,8 @@ public class DestinationActivity extends AppCompatActivity {
         userList.add(user.getSrc());
         userList.add(user.getDest());
         userList.add(user.getBuddy());
+        userList.add(user.getMatching()[0]);
+        userList.add(user.getMatching()[1]);
 
         mDatabase.child("pendingUsers")
                 .child(user.getUserFbID())

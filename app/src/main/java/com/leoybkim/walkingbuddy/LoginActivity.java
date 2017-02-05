@@ -157,7 +157,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 Drawable pic = ResourcesCompat.getDrawable(getResources(), R.drawable.placeholder200x200, null);
                 // TODO: Get the actual picture, now it' a placeholder
                 // Put all user's shit together
-                mUser = new User(mFacebookName, pic, mFacebookID, src, dest, null);
+                mUser = new User(mFacebookName, pic, mFacebookID, src, dest, null, null);
 
                 // Initialize the intent for DestinationActivity
                 Intent intent = new Intent(this, DestinationActivity.class);
