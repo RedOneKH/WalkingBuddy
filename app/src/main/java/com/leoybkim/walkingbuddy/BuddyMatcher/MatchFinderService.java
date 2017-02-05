@@ -2,8 +2,6 @@ package com.leoybkim.walkingbuddy.BuddyMatcher;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.util.Log;
 
 import com.google.android.gms.maps.model.LatLng;
@@ -54,8 +52,8 @@ public class MatchFinderService extends IntentService {
         ArrayList<User> matches = new ArrayList<>();
         L1: for( User other : users ) {
             if( other.getMatching()[0] || other.getUserFbID() == mUser.getUserFbID() ) continue;
-            if( ! isClose( mUser.getSrc(), other.getSrc() ) ) continue;
-            if( ! isClose( mUser.getDest(), other.getDest() ) ) continue;
+//            if( ! isClose( mUser.getSrc(), other.getSrc() ) ) continue;
+//            if( ! isClose( mUser.getDest(), other.getDest() ) ) continue;
             // We found a match!
             matches.add(other);
             // If this is the last user creating the FoundBuddy, mark the everyone as done
