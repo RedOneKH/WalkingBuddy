@@ -33,7 +33,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Map.DestinationActivity"/>
+        <activity
+            android:name=".DestinationActivity"
+            android:label="@string/destination_act"
+            android:parentActivityName=".LoginActivity">
+        </activity>
+
+        <activity
+            android:name=".BuddyFoundActivity"
+            android:label="@string/buddy_found_act"
+            android:parentActivityName=".DestinationActivity">
+        </activity>
+
     </application>
 
 </manifest>

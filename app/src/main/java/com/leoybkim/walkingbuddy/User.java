@@ -4,8 +4,13 @@ import android.graphics.drawable.Drawable;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
+import android.util.Log;
 
 import com.google.android.gms.maps.model.LatLng;
+
+import java.io.Serializable;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * Created by riesgo on 04/02/2017.
@@ -18,7 +23,7 @@ public class User implements Parcelable {
     private LatLng src;
     private LatLng dest;
     private User buddy;
-    private boolean [] matching;
+    private boolean [] matching = new boolean[]{false, false};
 
     public User(String fbName, Drawable userPic, String userFbID, LatLng src,
                 LatLng dest, @Nullable User buddy) {
@@ -28,7 +33,6 @@ public class User implements Parcelable {
         this.src = src;
         this.dest = dest;
         this.buddy = buddy;
-        this.matching = new boolean[]{false, false};
     }
 
     // Functions
@@ -41,12 +45,42 @@ public class User implements Parcelable {
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(fbName);
-        parcel.writeParcelable((Parcelable) userPic, i);
+        // TODO: drawable to string?
         parcel.writeString(userFbID);
-        parcel.writeParcelable(src, i);
-        parcel.writeParcelable(dest, i);
-        parcel.writeParcelable(buddy, i);
+        parcel.writeDoubleArray(new double[]{src.latitude, src.longitude});
+        parcel.writeDoubleArray(new double[]{dest.latitude, dest.longitude});
+        // TODO: buddy to string
         parcel.writeBooleanArray(matching);
+    }
+
+    public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {
+        public User createFromParcel(Parcel in) {
+            return new User(in);
+        }
+
+        public User[] newArray(int size) {
+            return new User[size];
+        }
+    };
+
+    private User(Parcel in) {
+        fbName = in.readString();
+
+//        this.userPic = in.readString().replace('android.graphics.', 'R'); // TODO: image to str and back?
+
+        userFbID = in.readString();
+
+        double [] srca = new double[2];
+        in.readDoubleArray(srca);
+        src = new LatLng(srca[0], srca[1]);
+
+        double [] desta = new double[2];
+        in.readDoubleArray(desta);
+        dest = new LatLng(desta[0], desta[1]);
+
+//        buddy = in.readParcelable(null);
+
+        in.readBooleanArray(matching);
     }
 
     // Getters and setters

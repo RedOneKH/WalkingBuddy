@@ -3,6 +3,7 @@ package com.leoybkim.walkingbuddy;
 import android.app.IntentService;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.leoybkim.walkingbuddy.BuddyMatcher.MatchFinderService;
 
@@ -13,6 +14,7 @@ import com.leoybkim.walkingbuddy.BuddyMatcher.MatchFinderService;
 public class LookingForBuddyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(LoginActivity.class.getSimpleName(), "Trying to create LFBA");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_looking_for_buddy);
         IntentService bg = new MatchFinderService();

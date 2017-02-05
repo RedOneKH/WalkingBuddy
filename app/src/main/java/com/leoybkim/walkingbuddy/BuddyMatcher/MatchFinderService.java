@@ -2,7 +2,6 @@ package com.leoybkim.walkingbuddy.BuddyMatcher;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.os.Parcelable;
 import android.util.Log;
 
 import com.google.android.gms.maps.model.LatLng;
@@ -10,8 +9,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
+import com.leoybkim.walkingbuddy.BuddyFoundActivity;
 import com.leoybkim.walkingbuddy.User;
 
 import java.util.ArrayList;
@@ -85,6 +84,7 @@ public class MatchFinderService extends IntentService {
                 // Do work here, based on the contents of bundle
                     // create an ArrayList to store potential matches
                 ArrayList<User> elems = new ArrayList<>();
+                Log.d(TAG, "Man this sucks");
                     // fill the Arraylist with the elements in the database
                 for (DataSnapshot user : dataSnapshot.getChildren()) {
                     elems.add( (User) user.getValue());

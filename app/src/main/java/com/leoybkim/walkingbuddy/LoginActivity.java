@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
@@ -34,7 +36,6 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.model.LatLng;
-import com.leoybkim.walkingbuddy.Map.DestinationActivity;
 import com.leoybkim.walkingbuddy.Map.MyLocationListener;
 
 import org.json.JSONArray;
@@ -45,6 +46,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrays;
+
+import static com.google.android.gms.location.places.ui.PlacePicker.getPlace;
 
 /**
  * Created by leo on 04/02/17.
@@ -100,7 +103,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 Log.d(TAG, "Login Success!");
 
                 getMyFacebookDetails(loginResult);
-                mBitmap = getFacebookProfilePicture(mFacebookID);
+//                mBitmap = getFacebookProfilePicture(mFacebookID);
 
                 updateLocation();
                 PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
@@ -141,23 +144,26 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
         if (requestCode == PLACE_PICKER_REQUEST) {
             if (resultCode == RESULT_OK) {
-                Place place = PlacePicker.getPlace(data, LoginActivity.this);
+                // Retrieve place from place picker
+                Place place = getPlace(LoginActivity.this, data);
                 String toastMsg = String.format("Place: %s", place.getName());
                 Toast.makeText(getApplicationContext(), toastMsg, Toast.LENGTH_SHORT).show();
+
                 Log.d(TAG, "Place returned successfully" );
 
+                // Compute user's values
+                LatLng src = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
+                LatLng dest = place.getLatLng();
+                Drawable pic = ResourcesCompat.getDrawable(getResources(), R.drawable.placeholder200x200, null);
+                // TODO: Get the actual picture, now it' a placeholder
+                // Put all user's shit together
+                mUser = new User(mFacebookName, pic, mFacebookID, src, dest, null);
+
+                // Initialize the intent for DestinationActivity
                 Intent intent = new Intent(this, DestinationActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putParcelable("destination", place.getLatLng());
-                LatLng origin = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
-                bundle.putParcelable("origin", origin);
-                intent.putExtra("bundle", bundle);
-
-
-                mUser = new User(mFacebookName, null, mFacebookID, origin, new LatLng(0,0), null);
-                Bundle userinfoBundle = new Bundle();
-                userinfoBundle.putParcelable("user", mUser);
-                intent.putExtra("FBinfo", userinfoBundle);
+                // Put the user info in the intent
+                intent.putExtra("user", mUser);
+                // start DestinationActivity with the info of the user
                 startActivity(intent);
             }
         }

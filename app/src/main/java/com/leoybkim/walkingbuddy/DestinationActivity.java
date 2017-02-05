@@ -1,4 +1,4 @@
-package com.leoybkim.walkingbuddy.Map;
+package com.leoybkim.walkingbuddy;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -20,6 +20,8 @@ import com.leoybkim.walkingbuddy.R;
 import com.leoybkim.walkingbuddy.User;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
+
 /**
  * Created by Dan on 04/02/2017.
  */
@@ -30,43 +32,31 @@ public class DestinationActivity extends AppCompatActivity {
     private ImageView imageView;
     private Button confirm;
     //location of destination
-    private LatLng destination, origin;
-    private Bundle userInfoState;
-    private String mFBid;
-    private String mFBname;
-    private Bitmap mFBbitmap;
     private User mUser;
-    private LatLng mOrigin;
-    private LatLng mDest;
     private DatabaseReference mDatabase;
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        mDatabase = FirebaseDatabase.getInstance().getReference();
 
-
-        if(savedInstanceState == null){
-            savedInstanceState = getIntent().getBundleExtra("bundle");
-            userInfoState = getIntent().getExtras();
-            if (userInfoState != null) {
-                mUser = userInfoState.getParcelable("FBinfo");
-
-            }
+        Bundle userInfoState = getIntent().getExtras();
+        if (userInfoState != null) {
+            mUser = userInfoState.getParcelable("user");
+            Log.d(TAG, "DestinationActivity received user information");
+        } else {
+            mUser = null;
+            Log.d(TAG, "An error occurred: no user arrived to DestinationActivity");
         }
-        Log.d(TAG, "DestinationActivity!");
+
+        // Link layout to activity
         setContentView(R.layout.destination_confirmation_activity);
 
+        // Get views from the layout
         imageView = (ImageView) findViewById(R.id.directionsImage);
         confirm = (Button) findViewById(R.id.confirmDirectionsButton);
 
-        destination = (LatLng) savedInstanceState.get("destination");
-        origin = (LatLng) savedInstanceState.get("origin");
 
-
-        //measure screen dimensions
+        // Measure screen dimensions
         DisplayMetrics displaymetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
         int height = displaymetrics.heightPixels;
@@ -74,37 +64,38 @@ public class DestinationActivity extends AppCompatActivity {
 
         loadImage(width, height);
 
+        // Get instance to the database
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        // Add listener to click on confirm button
         confirm.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                // CREATE USER ADD TO FIREBASE
-                // profile, name, messenger info
+
+                // write user into database
                 writeNewUser(mUser);
-                // start activity
+
+                // create intent to switch to LookingForBuddyActivity
                 Intent intent = new Intent(getApplicationContext(), LookingForBuddyActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putParcelable("user", mUser);
+                intent.putExtra("user", mUser);
+                // start activity
                 startActivity(intent);
             }
         });
     }
 
     private void writeNewUser(User user) {
-        mFBid = user.getUserFbID();
-//        mFBname = user.getFbName();
-//        mOrigin = user.getSrc();
-//        mDest = user.getDest();
-//
-//        JSONObject obj = new JSONObject();
-//        try {
-//            obj.put("name", mFBname);
-//            obj.put("origin", mOrigin);
-//            obj.put("dest", mDest);
-//        } catch (JSONException e) {
-//            e.printStackTrace();
-//        }
-//
-        mDatabase.child("pendingUsers").child(mFBid).setValue(user);
+        // Add user to the database
+        ArrayList<Object> userList = new ArrayList<>();
+        userList.add(user.getFbName());
+        userList.add(user.getUserPic());
+        userList.add(user.getUserFbID());
+        userList.add(user.getSrc());
+        userList.add(user.getDest());
+        userList.add(user.getBuddy());
 
+        mDatabase.child("pendingUsers")
+                .child(user.getUserFbID())
+                .setValue(userList);
     }
 
     private void loadImage(final int width, final int height) {
@@ -112,23 +103,23 @@ public class DestinationActivity extends AppCompatActivity {
             @Override
             public void onGlobalLayout() {
                 Picasso.with(getApplicationContext())
-                        .load(getStaticMapURL(origin, destination, width, height))
+                        .load(getStaticMapURL(mUser.getSrc(), mUser.getDest(), width, height))
                         .into(imageView);
             }
         });
 
     }
 
-    private String getStaticMapURL(LatLng origin, LatLng destination, int width, int height){
+    private String getStaticMapURL(LatLng src, LatLng dest, int width, int height){
         return String.format("https://maps.googleapis.com/maps/api/staticmap" +
                         "?markers=color:red%%7C%f,%f" +
                         "&markers=color:green%%7C%f,%f" +
                         "&key=%s" +
                         "&size=%dx%d",
-                origin.latitude,
-                origin.longitude,
-                destination.latitude,
-                destination.longitude,
+                src.latitude,
+                src.longitude,
+                dest.latitude,
+                dest.longitude,
                 getString(R.string.dan_googleMap_key),
                 width,
                 height);
