@@ -1,12 +1,10 @@
 package com.leoybkim.walkingbuddy.BuddyMatcher;
 
-import android.graphics.drawable.Drawable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.leoybkim.walkingbuddy.Buddy;
 import com.leoybkim.walkingbuddy.R;
 
 /**
@@ -32,13 +30,13 @@ public class BuddyFoundActivity extends AppCompatActivity {
         // use a linear layout manageri
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        Buddy testbuddy = new Buddy("sdf", "Dani Medina", null);
-        Buddy testbuddy2 = new Buddy("sdf", "Dan Kim", null);
+//        User testbuddy = new User("sdf", "Dani Medina", null);
+//        User testbuddy2 = new User("sdf", "Dan Kim", null);
 
         // specify an adapter (see also next example)
-        Buddy[] dataset = { testbuddy, testbuddy2 };
-        mAdapter = new CardAdapter(dataset);
-        mRecyclerView.setAdapter(mAdapter);
+//        User[] dataset = { testbuddy, testbuddy2 };
+//        mAdapter = new CardAdapter(dataset);
+//        mRecyclerView.setAdapter(mAdapter);
     }
 
 }

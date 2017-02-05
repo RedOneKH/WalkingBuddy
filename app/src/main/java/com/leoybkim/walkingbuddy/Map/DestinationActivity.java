@@ -1,12 +1,11 @@
 package com.leoybkim.walkingbuddy.Map;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -15,8 +14,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.leoybkim.walkingbuddy.LoginActivity;
 import com.leoybkim.walkingbuddy.R;
 import com.squareup.picasso.Picasso;
-
-import java.io.InputStream;
 
 /**
  * Created by Dan on 04/02/2017.
@@ -27,9 +24,12 @@ public class DestinationActivity extends AppCompatActivity {
     private static final String TAG = LoginActivity.class.getSimpleName();
     private ImageView imageView;
     private Button confirm;
-
     //location of destination
     private LatLng destination, origin;
+    Bundle userInfoState;
+    String FBid;
+    String FBname;
+    Bitmap FBbitmap;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -37,6 +37,12 @@ public class DestinationActivity extends AppCompatActivity {
 
         if(savedInstanceState == null){
             savedInstanceState = getIntent().getBundleExtra("bundle");
+            userInfoState = getIntent().getBundleExtra("FB");
+            FBid = userInfoState.getString("FBid");
+            FBname = userInfoState.getString("FBname");
+            FBbitmap = userInfoState.getParcelable("FBpicture");
+            Log.d(TAG, "-----------------------------" + FBid);
+            Log.d(TAG, "-----------------------------" + FBname);
         }
         Log.d(TAG, "DestinationActivity!");
         setContentView(R.layout.destination_confirmation_activity);
@@ -55,6 +61,14 @@ public class DestinationActivity extends AppCompatActivity {
         int width = displaymetrics.widthPixels;
 
         loadImage(width, height);
+
+        confirm.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                // CREATE USER ADD TO FIREBASE
+                // profile, name, messenger info
+
+            }
+        });
     }
 
     private void loadImage(final int width, final int height) {
@@ -83,4 +97,6 @@ public class DestinationActivity extends AppCompatActivity {
                 width,
                 height);
     }
+
+
 }

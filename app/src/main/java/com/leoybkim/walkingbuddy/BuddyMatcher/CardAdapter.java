@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.leoybkim.walkingbuddy.Buddy;
 import com.leoybkim.walkingbuddy.R;
+import com.leoybkim.walkingbuddy.User;
 
 
 /**
@@ -16,7 +16,7 @@ import com.leoybkim.walkingbuddy.R;
  */
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
-    private Buddy[] mDataset;
+    private User[] mDataset;
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -34,7 +34,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public CardAdapter(Buddy[] dataset) {
+    public CardAdapter(User[] dataset) {
         mDataset = dataset;
     }
 
@@ -55,8 +55,8 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        holder.mName.setText(mDataset[position].getName());
-        holder.mProfilePic.setImageDrawable(mDataset[position].getBuddyPic());
+//        holder.mName.setText(mDataset[position].getName());
+//        holder.mProfilePic.setImageDrawable(mDataset[position].getBuddyPic());
     }
 
     // Return the size of your dataset (invoked by the layout manager)

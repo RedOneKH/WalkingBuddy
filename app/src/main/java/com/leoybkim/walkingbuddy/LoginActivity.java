@@ -2,6 +2,8 @@ package com.leoybkim.walkingbuddy;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
@@ -12,8 +14,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
-
-import java.util.Arrays;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -41,6 +41,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Arrays;
+
 /**
  * Created by leo on 04/02/17.
  */
@@ -51,9 +56,12 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     private LoginButton mLoginButton;
     private CallbackManager mCallbackManager;
     private String mFacebookID;
+    private String mFacebookName;
+    private Bitmap mBitmap;
     private static final int PLACE_PICKER_REQUEST = 1;
     private static final int REQUEST_LOCATION = 2;
     private static Location mLocation;
+    private User mUser;
 
     public static Location getmLocation() {
         return mLocation;
@@ -91,7 +99,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 Log.d(TAG, "Login Success!");
 
                 getMyFacebookDetails(loginResult);
-                //getFriendList();
+                mBitmap = getFacebookProfilePicture(mFacebookID);
+
                 updateLocation();
                 PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
                 try {
@@ -110,7 +119,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
             @Override
             public void onError(FacebookException error) {
-                Log.d(TAG, "Login Failed!");
+                Log.d(TAG, "Login Failed! " + error.toString());
             }
         });
 
@@ -136,16 +145,20 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 String toastMsg = String.format("Place: %s", place.getName());
                 Toast.makeText(getApplicationContext(), toastMsg, Toast.LENGTH_SHORT).show();
                 Log.d(TAG, "Place returned successfully" );
-//                Log.d(TAG, "PLACE_PICKER_REQUEST: " + Integer.toString(PLACE_PICKER_REQUEST));
-//                Log.d(TAG, "REQUEST_LOCATION: " + Integer.toString(REQUEST_LOCATION));
-//
+
                 Intent intent = new Intent(this, DestinationActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putParcelable("destination", place.getLatLng());
-
                 LatLng origin = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
                 bundle.putParcelable("origin", origin);
                 intent.putExtra("bundle", bundle);
+
+
+                mUser = new User(mFacebookName, null, mFacebookID, origin, new LatLng(0,0), null);
+                Bundle userinfoBundle = new Bundle();
+                bundle.putParcelableArray("user", mUser);
+                intent.putExtra("FBinfo", userinfoBundle);
+
                 startActivity(intent);
             }
         }
@@ -199,15 +212,15 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     /*
     * FACEBOOK STUFF
     * */
-    private void getMyFacebookDetails(LoginResult loginResult) {
+    public void getMyFacebookDetails(LoginResult loginResult) {
         GraphRequest request = GraphRequest.newMeRequest(
                 loginResult.getAccessToken(),
                 new GraphRequest.GraphJSONObjectCallback() {
                     @Override
                     public void onCompleted(JSONObject object, GraphResponse response) {
-                        mFacebookID = null;
                         try {
                             mFacebookID = object.getString("id");
+                            mFacebookName = object.getString("name");
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -220,6 +233,24 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         request.executeAsync();
     }
 
+    public static Bitmap getFacebookProfilePicture(String userID){
+        URL imageURL = null;
+        try {
+            imageURL = new URL("https://graph.facebook.com/" + userID + "/picture?type=large");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        Bitmap bitmap = null;
+        try {
+            bitmap = BitmapFactory.decodeStream(imageURL.openConnection().getInputStream());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return bitmap;
+    }
+
+
     private void getFriendList() {
 
         GraphRequest request = GraphRequest.newMeRequest(AccessToken.getCurrentAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
@@ -228,8 +259,9 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
                 new GraphRequest(
                         AccessToken.getCurrentAccessToken(),
-                        //"/me/friends",
-                        "me/taggable_friends",
+
+                        "me/taggable_friends?limit=5000&height=300&type=\"large\"",
+
                         null,
                         HttpMethod.GET,
                         new GraphRequest.Callback() {
@@ -259,7 +291,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                                         Log.e(TAG,"@@@@"+jsonObject.getString("url").toString());
                                     }
 
-                                } catch (JSONException e) {
+                                } catch (Exception e) {
+                                    Log.e(TAG, "I am awful and have no friends");
                                     e.printStackTrace();
                                 }
                             }

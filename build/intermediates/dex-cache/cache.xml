@@ -3,651 +3,651 @@
 
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_e8e3c7a98f9a57e22f99baead0949a628bc26fd0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_7ceca489aaad799774dfb1e83ecfd37c31993c77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f612401cad640b911c415d6145c5a287ea4b8e3c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_099aa4f6a68292d02a51f7f646417fd335f244a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.19.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.19.0_944ea31765b2e791dc894d6bfa0f8c0bbb798657/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_7e8f453a219de40676aaa5122c27bb1406da5822/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_241c076af9129f6209879beb3ec2cfc757f86b17/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_42d03c84dd5563caa65f22907f76fd2db1568b1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_b8e816e0de277aa5200ef525b90628d1cd17c8b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_d8aa1a8ec2c9d31481b136812bf53b1ffa222be7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_eaa05cc66338ebf7a8a48eb0aecaf919fd5f2283/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_31f9c4738efe244a575c6aa21178d6ff24e186bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_278c40a88eaafb67e39fa1d96123af1384efe72d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_523480957dc5362b0602fe8eadc396d7d53339be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_0863eb1fe1c031856fb3608754caefa73b941970/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_8c76e8b59c68d722bc9a618a9c654345c169f7a6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_22bf3d63c537f2ff56f8ab204354339a570c5bc6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_4dee0441adad90714d2db12e4f30f11afe48a61b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_1d304c43b3fd192a4cb2487914ccb8c23da15196/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_d89072f42e3dea17421f83d13d3f58b12aa4d61d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_21b17a1b768fd8399eacf259d020a9f1f174c5da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_f5cf48ce54b4c7ec0964d73ad27b3db4aeaabfd0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_8a033681b53c2014778ecc08146a4a156b5e2d34/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_32bb5c8baa709379d081cf93e9063a200692bfa1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_442d58b420648439900d1c8d4ea035b0b6ee7187/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_d6372714378a047d66c4b2267695a7ac71b5a81f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_46e51ea70591ddd6a3342ecd5a103455e5523dac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_9713c8075b4d9a854c1958096a401f4894481b90/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_d145bdab29bba855e6cd82bff605050456bff803/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_e675d7dd31575334e2b9cc17318a890a399d0e44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_81a5f815c76ddcd0bd359461f52109af456d0eb1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_d5044fd95cc9d077a15d4a75069877b0226b78d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_bb5e2c9191689f1603f6a1228cb289711f12dd32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_087efac5d39fef8029a71ae1e13e5074309c2a3c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_3699992fa5485c6c5b207fedb8c5b64c0ed992af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_70fe346721a68aa639eabfaee05fd4d8c5e8865b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_b568e2aa5644aa2588499fdac27bcf23bb112a21/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_bbef08382f679542d7d391d61c567094154c1c39/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="727b473f049a9bf3a38b4071af0310e52ecda270">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0eed29aa46b3cbb3e068515b904e57f66b5edb09/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_131e844f6b2fb96f632df3dd0aaa9ea6dd5bd238/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_d6c43c48e06d2e1a38ebf7b7231c97e44fe71cea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_d5137ce4dfce0359293587c343b196bcd2243e66/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_445101b1ac06edc2cc773cf736c229b39470949e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_33fc78a64934f0c2219f6be43790b48831712613/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_3fe0b1a418644a928090cef6e60e81326797b56a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_a3389d2fe5198a298217c9e2d650175a9a535abd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_a1c6ce5506730187be655308af2072ca6f7dadef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a48dc0b148059764d32500be558702d5ff932058">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_1105bec45758bbc24f23c29ecf11ee495c8aeaec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_2859e2c62574bdb254d89cc037317469f353176e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_b9a585d6641cd813732fd5d8a2997fec85c85ec8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_ab1dd43400d53f9ead8678e67f450844baa6aab0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_94e97f3fdc32fd4d3b59023bd8a203310851fd45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_94fb7cc50764332275f07e1c10c5790e7088f3de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_9a2b367a1be765f1ac77d905a11d2ab237088bad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_a237ab5bd69941f56ef2f3ef35cb358488908724/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_e8b466e06e6995f6d7878fc01e6bd4678349c97f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_35c9a8ca73bd7f8425af913dc96efe3eeea7f39a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_8ed54c8052d2954084d8d8bec2d832891e2aff84/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_8dfad4fcb2d32696b7ea58e5939b9a182322fcb2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_5d2de7472318f8d1c718ef1c80e5f3cfc1b0161c/classes.dex" />
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_676950778dae6279a44c22604d7c590bac1b326c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_fa0006cbdac6683044c16a6d92ba87581c8a2566/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_9f136131ac7ae6ca9b5879f7eba65fa558487ce6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_73a8152ddeb59a8a85617e7696f91a54ae921fa2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_ea1675c08e2105d186b0619d4c741a0f2ff9baf8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_778db9ad63508158839329a1df02df4faa1a99af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_3df1caea214caac0f34b63b8844e5f239b537754/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_3e01e6c3bd816c8ff0aed6ec034ce872828e77af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_6af08a5cef08d7495d40fd1174ebb2c716f30a3a/classes.dex" />
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_b9cbd5ae83339f5070312172369fd6df82fba3cd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_8f7322e7f66d76c5660727b909e9de414a110a31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_554037431cd3fc5483990cb8470374950f0a5407/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_2a5b5e24ae75c16121627dd76e6f797c6af5c65e/classes.dex" />
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_9d868222d19f244f01e10410a0786e40b7de6902/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1a5f4163ea08c740e8fbae7e73ad6f7139d6e332/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_e0beca753bc9c4dfad329c6c188c1562b1198e7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e89622a52c0e3470e47e26a0628fb75e3c887e8c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d319f31f37352a86b848b822a8f05e3d7ccb83d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_d657f3bb907c17de5240ec309ce4c2bbc4b257af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_c9f35f2bd7156dc0c58410bcae643c1cce4a582b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_61be3332a5a7ad68b873f5d5f83b032caf92379f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_49efadccab5da51b33711510d7a57439e13b734b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_6cda555995251481b5fdf6ca9777cf72dbe22172/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_c6ee197ea99df2f08f42ffa28a500183836fb802/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_49ecceb89a5376d98414793bb565ae6741e3931e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_d61b7ab506eb97e3a4399d1a2aae7d3a4b0deb08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_1781f7b13ea235526603bca61b7269929fb877aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b492703111d8bbed0e0695b513b464d8bb6ae331/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_4a30eef04807c0da0ebd9c3d6751bf3d892d17a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_59c3ea9e3b90c253b08167e4dbb9390f372428ce/classes.dex" />
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_d58e5c516a5d22144ae5f01b09b84e5c45261062/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_bc29b59850b968b5a78507f3f5d7c2b40782910c/classes.dex" />
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_1245399f24d9e79ceb5972e1c26a26b15c581b99/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_4a4de131a46eaec9e3356c79c91a4dc5d121ff28/classes.dex" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_e469c82ced2f40fa00040b1d518b7aaa4b862828/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_e42de96cec746d8ee0a2a36df07c9f1d06f74688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_8076b906e6801e5af9039e12784721f6579e4baf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_f5f9778d2251964cdf2f1d3865681b8bb71718d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_13d4da6c3f7d8e6581654b08d28ebd0f49821b1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_b75a27508c21049b671288a5dd0d5642f5a4d4cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d40f81d7f7e8313380b55300984b1861dd655e6">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f3d6ba568649414117554262b4fe4c42ee925f1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_5d0e7604015a5e49e589d7f49d8fe4f77fba2b13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_4936534391de67c9bec45a4cc8dc8adfc1bbe82d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_01eca2600b408ba781a0c91c98c3169e9a00618a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_e575e63df9e014d20a0e47a70de3ce69a55be717/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_81eb907e2f712745fb29ac8001bf2bb6e82a9cd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_09ef5436d307a543fcee78f05f77c589cf9aaf7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_aa18155903bf427872d8da29655528a7f0f613e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_08f9823db8bcc8eb870bff2496272ab832dd2de9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_78a39fea8d9cb6d68a593547228e28cb999a196a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_f904fc28f8f96e08d592a4a8789eba9e47f6b899/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_9ee71353f405b524e45a5298e7760a0ac261ac9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_55cf526641d375bb311203c36277b6157b9c4455/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_59a2abe6469324232b5ddcbd865c7a01b88a8994/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_2032c06c830007d91e9e0d3a61be420e0e26f29b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_3383272c9ac4e77deaa61886009f96d59443ec02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/home/leo/Desktop/Hackatown2017/WalkingBuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_7d3b68f2ce81f1e0f9e15a58bbba737aebd13e5a/classes.dex" />
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_755c1880b82306bf4c9bd23cdfeb5403ae2db64e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_3c830433cc5261814d02376343c41766f9727efa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_4b8db722a5ceca5d538df956232601f7b19681a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_dbcf3a55c4838039bd00cabbbbcd72230b80b9d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_83ed558441ccc718409f0cae7e03be39df1932f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_3368ad99d01d1ab71ccb5de61bce87f4b110d0ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_a31fdd9e2c1a74ff33413551841f349db174fb37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_c7baa944911c273a8fc6f0634f3410d6099bc217/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_16e2025260b7e6eb463d3770b96f7cfd1cb6c778/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_75c00299c13157da9b7b31e27237f72cd720faf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_e26d874404c5c2b288a6e93761596cba7cd643d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_29d5cce770c0f0cad75929b326a7bc49447acd5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_881702e3b614be774e9307aab7c612669f7988b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_8431d9af2d4c2713d1851b348afb641f67cbc607/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_ed812ea90251cdf14055fdc1edb4dbb0898cacd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_bdb1191f3ed94c369c5a1f14805536837766f4a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_8b2855abb40adcc034242face6a8d92e79bda5bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_ec6420c2c610b23636e561f9c808b952ab659e92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_2cbcd8e4ef9a8cf010e55f268f9031bdf123fa12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_03dd30026b8fdccf9ef2dc7deae1d99cd75d1e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_53bbcd0a0696f5c71e171aac26a6d8b7bf2b8eba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_5e9c9623d8f627f48ee39048bdd84651dc0a689b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_b56a5b813795bf42105a3721f5e7a6d025451907/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_19d54955fdbf7de7da895df679d1d9143c4722d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_fd1f9c8631aac208ba1c77a84204730e08909544/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_4a6a5303dc74296bfc783dc0c73fbd5e362b49e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.19.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.19.0_6f762a2b3face1fb678fde193cc5b621ec2668da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_1c684706b5f2804c231454c7d4af87f6ed8ccba8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_93cdfc8ddb962bc906f874bdc8bb9dcbeeb6aed8/classes.dex" />
     </item>
 
 </items>
