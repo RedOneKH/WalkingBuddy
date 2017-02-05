@@ -2,6 +2,8 @@ package com.leoybkim.walkingbuddy.BuddyMatcher;
 
 import android.app.IntentService;
 import android.content.Intent;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.util.Log;
 
 import com.google.android.gms.maps.model.LatLng;
@@ -14,6 +16,8 @@ import com.leoybkim.walkingbuddy.BuddyFoundActivity;
 import com.leoybkim.walkingbuddy.User;
 
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.Set;
 
 import static android.content.ContentValues.TAG;
 
@@ -75,9 +79,11 @@ public class MatchFinderService extends IntentService {
     @Override
     protected void onHandleIntent(Intent workIntent) {
         // Gets data from the incoming Intent
-        mUser = workIntent.getParcelableExtra("user");
+        User incUser = workIntent.getParcelableExtra("user");
+        mUser = new User(incUser.getFbName(), null, incUser.getUserFbID(), incUser.getSrc(), incUser.getDest(), null);
+
         // Access the database
-        DatabaseReference database = FirebaseDatabase.getInstance().getReference().child("pendingUsers");
+        final DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         ValueEventListener postListener = new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -85,9 +91,18 @@ public class MatchFinderService extends IntentService {
                     // create an ArrayList to store potential matches
                 ArrayList<User> elems = new ArrayList<>();
                 Log.d(TAG, "Man this sucks");
-                    // fill the Arraylist with the elements in the database
-                for (DataSnapshot user : dataSnapshot.getChildren()) {
-                    elems.add( (User) user.getValue());
+                    // TODO: retrieve the pending users from the database
+                Log.d(TAG, dataSnapshot.toString());
+
+                for (DataSnapshot list : dataSnapshot.getChildren()) {
+                    Map<String, Object> map = (Map<String, Object>) list.getValue();
+                    Log.d(TAG, map.toString());
+                    Set<String> keys = map.keySet();
+                    for( String key : keys) {
+
+                        Log.d(TAG, String.valueOf(map.get(key).getClass()));
+                    }
+
                 }
                     // filter only the matches
                 ArrayList<User> matches = matches(elems);

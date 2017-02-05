@@ -1,6 +1,7 @@
 package com.leoybkim.walkingbuddy;
 
 import android.app.IntentService;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -18,7 +19,11 @@ public class LookingForBuddyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_looking_for_buddy);
         IntentService bg = new MatchFinderService();
-        bg.startActivity( getIntent() );
+        Intent intent = new Intent(getApplicationContext(), MatchFinderService.class);
+        intent.putExtra("user", getIntent().getExtras().getParcelable("user"));
+//        bg.startActivity( intent );
+        getApplicationContext().startService(intent);
+
 
     }
 

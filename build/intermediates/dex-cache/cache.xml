@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_08f9823db8bcc8eb870bff2496272ab832dd2de9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,21 +21,318 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_78a39fea8d9cb6d68a593547228e28cb999a196a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_8f7322e7f66d76c5660727b909e9de414a110a31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_554037431cd3fc5483990cb8470374950f0a5407/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_9d868222d19f244f01e10410a0786e40b7de6902/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1a5f4163ea08c740e8fbae7e73ad6f7139d6e332/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_e0beca753bc9c4dfad329c6c188c1562b1198e7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8541fb71c20bf9cc048f730bfd40df97a48bff76">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d319f31f37352a86b848b822a8f05e3d7ccb83d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_d657f3bb907c17de5240ec309ce4c2bbc4b257af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_c9f35f2bd7156dc0c58410bcae643c1cce4a582b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_61be3332a5a7ad68b873f5d5f83b032caf92379f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_49efadccab5da51b33711510d7a57439e13b734b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_6cda555995251481b5fdf6ca9777cf72dbe22172/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_c6ee197ea99df2f08f42ffa28a500183836fb802/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_49ecceb89a5376d98414793bb565ae6741e3931e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_d61b7ab506eb97e3a4399d1a2aae7d3a4b0deb08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_1781f7b13ea235526603bca61b7269929fb877aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b492703111d8bbed0e0695b513b464d8bb6ae331/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_4a30eef04807c0da0ebd9c3d6751bf3d892d17a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_d58e5c516a5d22144ae5f01b09b84e5c45261062/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_1245399f24d9e79ceb5972e1c26a26b15c581b99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_e469c82ced2f40fa00040b1d518b7aaa4b862828/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_e42de96cec746d8ee0a2a36df07c9f1d06f74688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_8076b906e6801e5af9039e12784721f6579e4baf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_f5f9778d2251964cdf2f1d3865681b8bb71718d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_13d4da6c3f7d8e6581654b08d28ebd0f49821b1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_b75a27508c21049b671288a5dd0d5642f5a4d4cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3f3a6c0ad06c8640f04c35d1fe3f9762ff05909">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f3d6ba568649414117554262b4fe4c42ee925f1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_5d0e7604015a5e49e589d7f49d8fe4f77fba2b13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_4936534391de67c9bec45a4cc8dc8adfc1bbe82d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_01eca2600b408ba781a0c91c98c3169e9a00618a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_e575e63df9e014d20a0e47a70de3ce69a55be717/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_81eb907e2f712745fb29ac8001bf2bb6e82a9cd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_09ef5436d307a543fcee78f05f77c589cf9aaf7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_aa18155903bf427872d8da29655528a7f0f613e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_08f9823db8bcc8eb870bff2496272ab832dd2de9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_78a39fea8d9cb6d68a593547228e28cb999a196a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,24 +390,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_554037431cd3fc5483990cb8470374950f0a5407/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_9d868222d19f244f01e10410a0786e40b7de6902/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -144,24 +414,6 @@
         revision="25.0.2"
         sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_4b8db722a5ceca5d538df956232601f7b19681a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1a5f4163ea08c740e8fbae7e73ad6f7139d6e332/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_e0beca753bc9c4dfad329c6c188c1562b1198e7a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,24 +480,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dcec743c482bd266a7d040bab0c83fbd992ced75">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d319f31f37352a86b848b822a8f05e3d7ccb83d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_d657f3bb907c17de5240ec309ce4c2bbc4b257af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -282,57 +516,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_c9f35f2bd7156dc0c58410bcae643c1cce4a582b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_ed812ea90251cdf14055fdc1edb4dbb0898cacd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_61be3332a5a7ad68b873f5d5f83b032caf92379f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_49efadccab5da51b33711510d7a57439e13b734b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_6cda555995251481b5fdf6ca9777cf72dbe22172/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_c6ee197ea99df2f08f42ffa28a500183836fb802/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -345,15 +534,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_49ecceb89a5376d98414793bb565ae6741e3931e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -363,39 +543,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_d61b7ab506eb97e3a4399d1a2aae7d3a4b0deb08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_1781f7b13ea235526603bca61b7269929fb877aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_ec6420c2c610b23636e561f9c808b952ab659e92/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_b492703111d8bbed0e0695b513b464d8bb6ae331/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -417,66 +570,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_4a30eef04807c0da0ebd9c3d6751bf3d892d17a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_d58e5c516a5d22144ae5f01b09b84e5c45261062/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_1245399f24d9e79ceb5972e1c26a26b15c581b99/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_53bbcd0a0696f5c71e171aac26a6d8b7bf2b8eba/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_e469c82ced2f40fa00040b1d518b7aaa4b862828/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_e42de96cec746d8ee0a2a36df07c9f1d06f74688/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_8076b906e6801e5af9039e12784721f6579e4baf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -507,33 +606,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_f5f9778d2251964cdf2f1d3865681b8bb71718d2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_13d4da6c3f7d8e6581654b08d28ebd0f49821b1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_b75a27508c21049b671288a5dd0d5642f5a4d4cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -552,24 +624,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cf5256e8f3723dcf9ab3f1ea85f7135bf88b01e0">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f3d6ba568649414117554262b4fe4c42ee925f1f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_5d0e7604015a5e49e589d7f49d8fe4f77fba2b13/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.19.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -579,66 +633,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_4936534391de67c9bec45a4cc8dc8adfc1bbe82d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_01eca2600b408ba781a0c91c98c3169e9a00618a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="a48dc0b148059764d32500be558702d5ff932058">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_1c684706b5f2804c231454c7d4af87f6ed8ccba8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_e575e63df9e014d20a0e47a70de3ce69a55be717/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_81eb907e2f712745fb29ac8001bf2bb6e82a9cd5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_09ef5436d307a543fcee78f05f77c589cf9aaf7e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_aa18155903bf427872d8da29655528a7f0f613e3/classes.dex" />
     </item>
     <item
         is-multidex="true"

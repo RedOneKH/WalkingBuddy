@@ -28,7 +28,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -40,10 +39,20 @@
         </activity>
 
         <activity
-            android:name=".BuddyFoundActivity"
+            android:name=".LookingForBuddyActivity"
             android:label="@string/buddy_found_act"
             android:parentActivityName=".DestinationActivity">
         </activity>
+
+        <activity
+            android:name=".BuddyFoundActivity"
+            android:label="@string/buddy_found_act"
+            android:parentActivityName=".LookingForBuddyActivity">
+        </activity>
+
+        <service
+            android:name=".BuddyMatcher.MatchFinderService"
+            android:exported="false"/>
 
     </application>
 

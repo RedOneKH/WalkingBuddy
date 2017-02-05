@@ -25,7 +25,7 @@ public class User implements Parcelable {
     private User buddy;
     private boolean [] matching = new boolean[]{false, false};
 
-    public User(String fbName, Drawable userPic, String userFbID, LatLng src,
+    public User(String fbName, @Nullable Drawable userPic, String userFbID, LatLng src,
                 LatLng dest, @Nullable User buddy) {
         this.fbName = fbName;
         this.userPic = userPic;
@@ -63,7 +63,7 @@ public class User implements Parcelable {
         }
     };
 
-    private User(Parcel in) {
+    public User(Parcel in) {
         fbName = in.readString();
 
 //        this.userPic = in.readString().replace('android.graphics.', 'R'); // TODO: image to str and back?
