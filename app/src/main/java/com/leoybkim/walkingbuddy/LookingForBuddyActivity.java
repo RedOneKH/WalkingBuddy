@@ -14,7 +14,7 @@ public class LookingForBuddyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.looking_for_buddy);
+        setContentView(R.layout.activity_looking_for_buddy);
         IntentService bg = new MatchFinderService();
         bg.startActivity( getIntent() );
 
