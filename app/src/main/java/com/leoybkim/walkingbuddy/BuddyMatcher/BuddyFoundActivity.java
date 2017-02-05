@@ -6,6 +6,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.leoybkim.walkingbuddy.R;
+import com.leoybkim.walkingbuddy.User;
+
+import java.util.ArrayList;
 
 /**
  * Created by dmedinag on 04/02/2017.
@@ -27,16 +30,15 @@ public class BuddyFoundActivity extends AppCompatActivity {
         // in content do not change the layout size of the RecyclerView
         mRecyclerView.setHasFixedSize(true);
 
-        // use a linear layout manageri
+        // use a linear layout manager
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
-//        User testbuddy = new User("sdf", "Dani Medina", null);
-//        User testbuddy2 = new User("sdf", "Dan Kim", null);
 
-        // specify an adapter (see also next example)
-//        User[] dataset = { testbuddy, testbuddy2 };
-//        mAdapter = new CardAdapter(dataset);
-//        mRecyclerView.setAdapter(mAdapter);
+        savedInstanceState = getIntent().getExtras();
+        ArrayList<User> users = savedInstanceState.getParcelableArrayList("users");
+
+        mAdapter = new CardAdapter( (User[]) users.toArray());
+        mRecyclerView.setAdapter(mAdapter);
     }
 
 }

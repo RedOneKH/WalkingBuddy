@@ -103,8 +103,8 @@ public class User implements Parcelable {
         return matching;
     }
 
-    public void setMatching(boolean [] matching) {
-        this.matching = matching;
+    public void setMatching(int index, boolean matching) {
+        this.matching[index] = matching;
     }
 
 }
