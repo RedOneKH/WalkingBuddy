@@ -55,8 +55,8 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        holder.mName.setText(mDataset[position].getName());
-        holder.mProfilePic.setImageDrawable(mDataset[position].getBuddyPic());
+//        holder.mName.setText(mDataset[position].getName());
+//        holder.mProfilePic.setImageDrawable(mDataset[position].getBuddyPic());
     }
 
     // Return the size of your dataset (invoked by the layout manager)
