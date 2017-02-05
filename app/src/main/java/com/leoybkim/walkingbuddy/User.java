@@ -1,18 +1,24 @@
 package com.leoybkim.walkingbuddy;
 
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
+
+import com.google.android.gms.maps.model.LatLng;
 
 /**
  * Created by riesgo on 04/02/2017.
  */
 
-public class Buddy {
+public class User {
+
     private Drawable buddyPic;
     private String name;
+    private LatLng src;
+    private LatLng dest;
     private String buddyid;
 
-    public Buddy (String buddyid, @Nullable String name, @Nullable Drawable buddyPic) {
+    public User(String buddyid, @Nullable String name, @Nullable Drawable buddyPic) {
         this.buddyid = buddyid;
         this.name = name;
         this.buddyPic = buddyPic;
