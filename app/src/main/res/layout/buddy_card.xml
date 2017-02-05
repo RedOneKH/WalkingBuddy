@@ -44,7 +44,7 @@
             android:text="@string/name_place_holder"
             android:layout_below="@+id/buddyPic" />
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fbm_button"
@@ -54,7 +54,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="42dp"
             android:layout_marginStart="25dp"
-            android:layout_marginTop="300dp"/>
+            android:layout_marginTop="300dp"
+            android:onClick="openMessenger"/>
 
 
     </android.support.v7.widget.CardView>

@@ -45,7 +45,7 @@ public class BuddyFoundActivity extends AppCompatActivity {
         }
         Log.d(TAG, "users: " + users.toString());
 
-        mAdapter = new CardAdapter( users );
+        mAdapter = new CardAdapter( users, getApplicationContext() );
         mRecyclerView.setAdapter(mAdapter);
     }
 

@@ -18,6 +18,6 @@
     <!-- User card values-->
     <string name="buddy_found">Buddy Found!</string>
     <string name="name_place_holder">Name Surname</string>
-    <string name="button_place_holder">Should be a fb mes button</string>
+    <string name="button_place_holder">Contact your Buddy!</string>
 
 </resources>
