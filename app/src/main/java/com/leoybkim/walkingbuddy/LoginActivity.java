@@ -156,9 +156,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
                 mUser = new User(mFacebookName, null, mFacebookID, origin, new LatLng(0,0), null);
                 Bundle userinfoBundle = new Bundle();
-                bundle.putParcelableArray("user", mUser);
+                userinfoBundle.putParcelable("user", mUser);
                 intent.putExtra("FBinfo", userinfoBundle);
-
                 startActivity(intent);
             }
         }
@@ -221,6 +220,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                         try {
                             mFacebookID = object.getString("id");
                             mFacebookName = object.getString("name");
+
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
