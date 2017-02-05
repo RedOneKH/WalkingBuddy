@@ -15,6 +15,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
@@ -114,6 +115,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 } catch (GooglePlayServicesRepairableException e) {
                     e.printStackTrace();
                 }
+
+                mLoginButton.setVisibility(View.GONE);
             }
 
             @Override
@@ -147,7 +150,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 // Retrieve place from place picker
                 Place place = getPlace(LoginActivity.this, data);
                 String toastMsg = String.format("Place: %s", place.getName());
-                Toast.makeText(getApplicationContext(), toastMsg, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), toastMsg, Toast.LENGTH_SHORT).show();
 
                 Log.d(TAG, "Place returned successfully" );
 
@@ -204,12 +207,12 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             if (grantResults.length == 1
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // We can now safely use the API we requested access to
-                Toast.makeText(getApplicationContext(), "Location permission was granted!",
-                        Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Location permission was granted!",
+                        //Toast.LENGTH_SHORT).show();
             } else {
                 // Permission was denied or request was cancelled
-                Toast.makeText(getApplicationContext(), "Location permission was denied",
-                        Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), "Location permission was denied",
+                        //Toast.LENGTH_SHORT).show();
             }
         }
     }
