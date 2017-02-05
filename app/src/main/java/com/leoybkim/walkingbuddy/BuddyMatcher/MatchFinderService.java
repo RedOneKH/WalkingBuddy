@@ -26,9 +26,6 @@ public class MatchFinderService extends IntentService {
 
     User mUser;
 
-    // Read from the database
-    FirebaseDatabase mDatabase;
-
     public MatchFinderService() {
         super("MatchFinderService");
     }
@@ -53,7 +50,7 @@ public class MatchFinderService extends IntentService {
 
         ArrayList<User> matches = new ArrayList<>();
         L1: for( User other : users ) {
-            if( other.getMatching()[0] ) continue;
+            if( other.getMatching()[0] || other.getUserFbID() == mUser.getUserFbID() ) continue;
             if( ! isClose( mUser.getSrc(), other.getSrc() ) ) continue;
             if( ! isClose( mUser.getDest(), other.getDest() ) ) continue;
             // We found a match!
