@@ -8,7 +8,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -34,11 +33,9 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.leoybkim.walkingbuddy.Util.DestinationActivity;
-import com.leoybkim.walkingbuddy.Util.MyLocationListener;
+import com.leoybkim.walkingbuddy.Map.DestinationActivity;
+import com.leoybkim.walkingbuddy.Map.MyLocationListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -87,13 +84,14 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
         mLoginButton = (LoginButton)findViewById(R.id.login_button);
         mLoginButton.setReadPermissions(Arrays.asList("public_profile", "user_friends"));
+
         mLoginButton.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Log.d(TAG, "Login Success!");
 
                 getMyFacebookDetails(loginResult);
-                getFriendList();
+                //getFriendList();
                 updateLocation();
                 PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
                 try {
@@ -131,9 +129,9 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
+        askForLocationPermission();
         if (requestCode == PLACE_PICKER_REQUEST) {
             if (resultCode == RESULT_OK) {
-                askForLocationPermission();
                 Place place = PlacePicker.getPlace(data, LoginActivity.this);
                 String toastMsg = String.format("Place: %s", place.getName());
                 Toast.makeText(getApplicationContext(), toastMsg, Toast.LENGTH_SHORT).show();
@@ -231,7 +229,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 new GraphRequest(
                         AccessToken.getCurrentAccessToken(),
                         //"/me/friends",
-                        "me/taggable_friends?limit=5000&height=300&type=\"large\"",
+                        "me/taggable_friends",
                         null,
                         HttpMethod.GET,
                         new GraphRequest.Callback() {

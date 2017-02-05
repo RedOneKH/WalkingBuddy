@@ -1,12 +1,11 @@
-package com.leoybkim.walkingbuddy.Util;
+package com.leoybkim.walkingbuddy.Map;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.media.session.IMediaControllerCallback;
 import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
@@ -48,15 +47,22 @@ public class DestinationActivity extends AppCompatActivity {
         destination = (LatLng) savedInstanceState.get("destination");
         origin = (LatLng) savedInstanceState.get("origin");
 
-        new DownloadImageTask(imageView).execute(getStaticMapURL(origin, destination, 250, 250));
+
+        //measure screen dimensions
+        DisplayMetrics displaymetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+        int height = displaymetrics.heightPixels;
+        int width = displaymetrics.widthPixels;
+
+        loadImage(width, height);
     }
 
-    private void loadImage() {
+    private void loadImage(final int width, final int height) {
         imageView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {
                 Picasso.with(getApplicationContext())
-                        .load(getStaticMapURL(origin, destination, imageView.getWidth(), imageView.getHeight()))
+                        .load(getStaticMapURL(origin, destination, width, height))
                         .into(imageView);
             }
         });
@@ -76,30 +82,5 @@ public class DestinationActivity extends AppCompatActivity {
                 getString(R.string.dan_googleMap_key),
                 width,
                 height);
-    }
-
-    private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
-        ImageView bmImage;
-
-        public DownloadImageTask(ImageView bmImage) {
-            this.bmImage = bmImage;
-        }
-
-        protected Bitmap doInBackground(String... urls) {
-            String urldisplay = urls[0];
-            Bitmap mIcon11 = null;
-            try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
-                mIcon11 = BitmapFactory.decodeStream(in);
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
-                e.printStackTrace();
-            }
-            return mIcon11;
-        }
-
-        protected void onPostExecute(Bitmap result) {
-            bmImage.setImageBitmap(result);
-        }
     }
 }
