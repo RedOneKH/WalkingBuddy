@@ -77,7 +77,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     }
 
     public static void openMessenger() {
-        String url = "http://www.facebook.com/messages/t/"+mDataset.get(0).getUserFbID();
+        String url = "https://facebook.com/messages/t/" + mDataset.get(0).getUserFbID();
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         mContext.startActivity(i);

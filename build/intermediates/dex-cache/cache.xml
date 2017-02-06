@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="84d46614fd0b28e9e839d58fb413a74872cf4c14">
+        sha1="a20a5d0f72560bd20310e88b93abfcbe987eb47a">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8d319f31f37352a86b848b822a8f05e3d7ccb83d/classes.dex" />
     </item>
     <item
@@ -250,7 +250,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6656b610e4459057f4f332e501ad12bca0eaec57">
+        sha1="14bf5dd4dd049e461ea741f99edb6e48c15fb9ab">
         <dex dex="/Users/riesgo/GitHub/walkingbuddy/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f3d6ba568649414117554262b4fe4c42ee925f1f/classes.dex" />
     </item>
     <item
