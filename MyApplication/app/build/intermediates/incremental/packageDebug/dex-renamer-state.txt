@@ -1,7 +1,0 @@
-#Sat Feb 04 18:47:06 EST 2017
-base.0=/Users/riesgo/GitHub/WalkingBuddy/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_91dcfca50198bef66fbe8b79990ae809e31870b6
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/riesgo/GitHub/WalkingBuddy/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_26b08575bfc1300804b0a77188f5ac2889f8d969/classes.dex
-base.1=/Users/riesgo/GitHub/WalkingBuddy/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_26b08575bfc1300804b0a77188f5ac2889f8d969
-file.0=/Users/riesgo/GitHub/WalkingBuddy/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_91dcfca50198bef66fbe8b79990ae809e31870b6/classes.dex
